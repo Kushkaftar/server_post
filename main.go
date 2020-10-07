@@ -19,7 +19,7 @@ func main() {
 	// route declarations continue like this
 
 	fmt.Println("Server started")
-	http.ListenAndServe(":8080", router)
+	http.ListenAndServe(":80", router)
 }
 func getHandler(res http.ResponseWriter, req *http.Request) {
 
